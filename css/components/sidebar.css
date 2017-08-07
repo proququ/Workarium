@@ -1,0 +1,82 @@
+.sidebar {
+    float: left;
+    width: 160px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu-list__item {
+    margin-bottom: 35px;
+}
+
+.menu-list__link {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    color: #ec1e79;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.menu-list__link:hover {
+    color: #221f1f;
+}
+
+.menu-list__item-active .menu-list__link {
+    color: #221f1f;
+}
+
+.menu-list__link:before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 0px;
+    background-image: url("../../image/icons/spritesheet.png");
+    background-repeat: no-repeat;
+}
+
+.main-icon:before {
+    top: 1px;
+    background-position: -235px -90px;
+}
+
+.rate-icon:before {
+    background-position: -94px -235px;
+}
+
+.review-icon:before {
+    top: -2px;
+    background-position: -96px -165px;
+}
+
+.main-icon:hover:before {
+    background-position: -235px -25px;
+}
+
+.rate-icon:hover:before {
+    background-position: -25px -235px;
+}
+
+.review-icon:hover:before {
+    background-position: -25px -165px;
+}
+
+.menu-list__item-active span.main-icon:before {
+    background-position: -235px -25px;
+}
+
+.menu-list__item-active span.rate-icon:before {
+    background-position: -25px -235px;
+}
+
+.menu-list__item-active span.review-icon:before {
+    background-position: -25px -165px;
+}

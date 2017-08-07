@@ -1,0 +1,49 @@
+.page-text {
+    padding-right: 180px;
+    margin-bottom: 65px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.page-text__text {
+    margin: 15px 0;
+}
+
+.page-text__title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.page-text__list {
+    padding: 0;
+    margin: 0;
+}
+
+.page-text__item {
+    position: relative;
+    padding-left: 38px;
+    list-style: none;
+}
+
+.page-text__item:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 13px;
+    left: 15px;
+    border-radius: 50%;
+    background-color: #ec1e79;
+}
+
+.page-text__text-discount {
+    padding: 20px 30px;
+    color: #ffffff;
+    background-color: #27273e;
+}
+
+.page-text__discount {
+    font-weight: bold;
+    color: #ec1e79;
+}

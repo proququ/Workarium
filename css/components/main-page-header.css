@@ -1,0 +1,22 @@
+.main-page-header {
+    position: relative;
+    min-width: 880px;
+    min-height: 360px;
+    margin-top: -40px;
+    background-image: url("../../image/background/about-company-bg-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-page-header__title {
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+    font-size: 49px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+}

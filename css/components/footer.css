@@ -1,0 +1,123 @@
+.footer {
+    min-width: 1100px;
+    min-height: 75px;
+    padding-top: 12px;
+/*    margin-top: -75px;*/
+    overflow: hidden;
+    background: #27273e;
+    color: #ffffff;
+    font-size: 0;
+}
+
+.site-autor {
+    display: inline-block;
+    width: 33.3%;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.site-autor__text {
+    padding: 0;
+    margin: 0;
+}
+
+.site-autor__link {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.site-autor__autor {
+    font-weight: bold;
+}
+
+.footer-logo {
+    display: inline-block;
+    width: 33.3%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.social-network {
+    display: inline-block;
+    width: 33.3%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.social-network__title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.social-network__list {
+    padding: 0;
+    padding-right: 30px;
+    margin: 0;
+    list-style: none;
+}
+
+.social-network__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-network__item:last-child {
+    margin-right: 0;
+}
+
+.social-network__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+    background-image: url("../../image/icons/spritesheet.png");
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.vk-icon {
+    background-position: -302px -95px;
+}
+
+.facebook-icon {
+    background-position: -25px -25px;
+}
+
+.google-icon {
+    background-position: -165px -25px;    
+}
+
+.twitter-icon {
+    background-position: -167px -165px;    
+}
+
+.mail-icon {
+    background-position: -95px -95px;    
+}
+
+.social-network__link:hover{
+    opacity: 1;
+}
+
+.vk-icon:hover {
+    background-position: -237px -165px;
+}
+
+.facebook-icon:hover {
+    background-position: -95px -25px;
+}
+
+.google-icon:hover {
+    background-position: -25px -95px;    
+}
+
+.twitter-icon:hover {
+    background-position: -302px -25px;    
+}
+
+.mail-icon:hover {
+    background-position: -165px -95px;    
+}

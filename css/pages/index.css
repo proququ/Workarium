@@ -1,0 +1,40 @@
+.wrapper_intro {
+    min-width: initial;
+    background-image: url("../../image/background/welcome-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.intro {
+    position: absolute;
+    width: 194px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.intro-bg {
+    margin-bottom: 30px;
+}
+
+.intro-btn {
+    display: block;
+    padding: 15px 20px;
+    border: 3px solid #ec1e79;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ec1e79;
+}
+
+.intro-btn:hover {
+    color: #ffffff;
+    background-color: #ec1e79;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
